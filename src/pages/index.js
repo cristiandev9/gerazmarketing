@@ -2,6 +2,8 @@ import * as React from "react";
 import GlobalStyle from "../css/globalStyles";
 import Navbar from "../components/navbar";
 import Presentation from "../components/presentation";
+import Jobs from "../components/jobs";
+import Clients from "../components/clients";
 
 const primaryColorBackground = {
   backgroundColor: "#151515",
@@ -23,6 +25,9 @@ const IndexPage = () => {
       <GlobalStyle />
       <Navbar/>
       <Presentation/>
+      <Clients/>
+      <Jobs/>
+      <br />
     </main>
   );
 };
