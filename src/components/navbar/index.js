@@ -36,7 +36,7 @@ const Navbar = () => {
       <div style={navbar}>
         <div className="logo">
           <img
-            src="static/images/logoGeraZ.png"
+            src="images/logoGeraZ.png"
             loading="lazy"
             width="48"
             alt="logo "
