@@ -14,22 +14,22 @@ const Jobs = () => {
   return (
     <>
       <div style={{ width: "100%", textAlign: "center", margin: "3rem auto" }}>
-        <h2 style={{ fontSize: "3rem" }}>Com o que trabalhamos?</h2>
+        <h2 style={{ fontSize: "3rem" }}>Quais os nossos serviços?</h2>
         <div style={{ display: "flex", justifyContent: "center", margin: "0 3rem" }}>
           <Card
-            title="Marketing Físico"
+            title="Gestão de redes sociais"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus."
           />
           <Card
-            title="Marketing Digital"
+            title="Marketing físico"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus."
           />
           <Card
-            title="Criamos seu site"
+            title="Criação de sites"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus."
           />
           <Card
-            title="Redes Sociais"
+            title="Designer gráfico"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus."
           />
         </div>

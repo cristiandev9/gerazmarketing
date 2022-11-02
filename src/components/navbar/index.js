@@ -36,21 +36,21 @@ const Navbar = () => {
       <div style={navbar}>
         <div className="logo">
           <img
-            src="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d98da043bcc5dbc846ad4f_Arrow%20Logo.svg"
+            src="static/images/logoGeraZ.png"
             loading="lazy"
             width="48"
-            alt="Company Logo, A pink arrow pointing up"
+            alt="logo "
             class="main-logo"
           />
         </div>
         <div className="nav" style={navbarItens}>
-          <div style={navbarItem}>Nossos Trabalhos</div>
-          <div style={navbarItem}>Clientes</div>
           <div style={navbarItem}>Sobre nós</div>
+          <div style={navbarItem}>Nossos serviços</div>
+          <div style={navbarItem}>Clientes</div>
+          <div style={navbarItem}>Portfólio</div>
           <div style={{marginLeft: "1rem"}}><Button text="ENTRE EM CONTATO" scale="0.9"/></div>
         </div>
         <div className="avaliable" style={{padding: "0.5rem 1rem"}}>
-          Avalie-nos &nbsp;<StarFilled style={{color:"#f538eb"}}/>
         </div>
       </div>
   );

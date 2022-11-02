@@ -24,6 +24,8 @@ const avaliableItem = {
   color: "#f538eb",
 };
 
+const TextPresentation = () => <p>Invista em sua rede social com publicações criativas e inovadoras.<br/>  Inumeros negócios vem se destacando e faturando através do Marketing Digital.<br/> Somos a geração das ideias criativas!</p>;
+
 const Presentation = () => {
   return (
     <>
@@ -41,14 +43,10 @@ const Presentation = () => {
               marginTop: "-1rem"
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius
-            <br /> enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros
-            <br /> dolor interdum nulla, ut commodo diam libero vitae erat.
+           <TextPresentation />
           </div>
               <div style={{margin: "2.2rem 0 2rem 0"}}>
-              <Button text="SOLICITE UM ORÇAMENTO" scale="1"/>
+              <Button text="SAIBA MAIS" scale="1"/>
               </div>
         </div>
         
