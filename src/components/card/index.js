@@ -2,7 +2,7 @@ import * as React from "react";
 
 const Card = ({ title, text }) => {
   return (
-    <div style={{backgroundColor: "#292929", margin: "1rem", padding: "2rem", maxWidth: "15rem"}}>
+    <div style={{backgroundColor: "#292929", margin: "2rem", padding: "3rem 2.5rem", maxWidth: "17rem", textAlign:"left"}}>
       <img
         style={{width: "2rem"}}
         src="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d9deae5437fb02b72d5f7a_CheckMark%20Icon.svg"
@@ -11,8 +11,8 @@ const Card = ({ title, text }) => {
         alt="Check Mark Icon Pink"
         class="icon-small"
         />
-      <h2>{title}</h2>
-      <div>{text}</div>
+      <h2 style={{marginTop:"2.5rem", height:"2.5rem", fontSize: "22px"}}>{title}</h2>
+      <div style={{marginTop:"2.5rem", color: "#BABABA", letterSpacing: "0.3px"}}>{text}</div>
     </div>
   );
 };
