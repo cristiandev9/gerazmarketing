@@ -2,14 +2,6 @@ import { ArrowRightOutlined } from "@ant-design/icons";
 import * as React from "react";
 import Card from "../card";
 
-const itemFlex = {
-  display: "flex",
-};
-
-const avaliableItem = {
-  color: "#f538eb",
-};
-
 const Jobs = () => {
   return (
     <>
@@ -18,9 +10,10 @@ const Jobs = () => {
         <div>
           <div
             style={{
-              display: "flex",
-              justifyContent: "center",
-              margin: "0 3rem",
+              display: "grid",
+              gridTemplateColumns: "auto auto auto",
+              padding: "10px",
+              placeItems: "center",
             }}
           >
             <Card
@@ -39,24 +32,14 @@ const Jobs = () => {
               title="Designer gráfico"
               text="produção de artes: Outdoor, panfletos, adesivos, cardápios e muito mais."
             />
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              margin: "0 3rem",
-            }}
-          >
             <Card
               title="Mentorias para empreendedores"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus."
             />
-
             <Card
               title="Ensaios fotográficos corporativos"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus."
             />
-
             <Card
               title="Gestão de Lançamentos de produtos e infoprodutos"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus."

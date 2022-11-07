@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Presentation from "../components/presentation";
 import Jobs from "../components/jobs";
 import Clients from "../components/clients";
+import Footer from "../components/footer/footer";
 
 const primaryColorBackground = {
   backgroundColor: "#151515",
@@ -27,7 +28,7 @@ const IndexPage = () => {
       <Presentation/>
       <Clients/>
       <Jobs/>
-      <br />
+      <Footer/>
     </main>
   );
 };

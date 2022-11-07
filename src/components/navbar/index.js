@@ -1,6 +1,6 @@
 import * as React from "react";
 import Button from "../button";
-import { StaticImage } from "gatsby-plugin-image";
+import Logo from "../logo";
 
 const itemFlex = {
   display: "flex",
@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div style={navbar}>
       <div className="logo">
-      <StaticImage src="../../images/logo.png" alt="logo" width={48} />
+      <Logo />
       </div>
       <div className="nav" style={navbarItens}>
         <div style={navbarItem}>Sobre nós</div>

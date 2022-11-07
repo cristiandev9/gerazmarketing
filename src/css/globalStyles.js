@@ -7,6 +7,7 @@ body {
     padding: 0;
     background: #151515;
     font-family: Lato, sans-serif;
+    overflow-x: hidden;
   }`;
 
 export default GlobalStyle;
