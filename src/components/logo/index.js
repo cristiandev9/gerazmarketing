@@ -5,7 +5,7 @@ import { objLogo } from "./objLogo";
 const Logo  = () => {
     return (
         <>
-        <StaticImage src={objLogo} alt="logo" width={48} />
+        <StaticImage src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png" alt="logo" width={48} />
         </>
     )
 }
