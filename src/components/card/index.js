@@ -2,7 +2,7 @@ import * as React from "react";
 
 const Card = ({ title, text }) => {
   return (
-    <div style={{backgroundColor: "#292929", margin: "rem", padding: "3rem 2.5rem", maxWidth: "17rem" , height: "16.5rem", textAlign:"left"}}>
+    <div style={{backgroundColor: "#292929", margin: "2rem", padding: "3rem 2.5rem", maxWidth: "17rem" , height: "16.5rem", textAlign:"left"}}>
       <img
         style={{width: "2rem"}}
         src="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d9deae5437fb02b72d5f7a_CheckMark%20Icon.svg"
