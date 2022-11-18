@@ -32,7 +32,7 @@ const Footer = () => {
   return (
     <footer style={gridFooter}>
       <div style={itemsRow}>
-        <div><Logo /></div>
+        <div><img src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png" alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png" width={48} /></div>
         <div>
             <input type="text" placeholder="Envie-nos uma mensagem" style={{width:"15rem", height: "2rem"}} />
             <button style={{width:"7rem", height: "2.35rem", marginLeft: "1rem", background: "transparent", border: "1px solid #fff", color: "#fff"}}>Enviar</button>
