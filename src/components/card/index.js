@@ -9,7 +9,7 @@ const Card = ({ title, text }) => {
         loading="lazy"
         id="w-node-ec0b854b-8453-414f-ec88-1b53249310da-a5af1e7e"
         alt="Check Mark Icon Pink"
-        class="icon-small"
+        className="icon-small"
         />
       <h2 style={{marginTop:"2.5rem", height:"2.5rem", fontSize: "22px"}}>{title}</h2>
       <div style={{marginTop:"2.5rem", color: "#BABABA", letterSpacing: "0.3px"}}>{text}</div>

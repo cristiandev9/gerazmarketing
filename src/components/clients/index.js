@@ -18,21 +18,21 @@ const Clientes = () => {
           loading="lazy"
           width="196"
           alt="Logo PlaceHolder"
-          class="logo"
+          className="logo"
         />
         <img
           src="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d989ab79fbea17dc6d314e_Logo%20PlaceHolder%204.svg"
           loading="lazy"
           width="196"
           alt="Logo PlaceHolder"
-          class="logo"
+          className="logo"
         />
         <img
           src="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d989ab79fbea17dc6d314e_Logo%20PlaceHolder%204.svg"
           loading="lazy"
           width="196"
           alt="Logo PlaceHolder"
-          class="logo"
+          className="logo"
         />
       </div>
     </>
