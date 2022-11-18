@@ -5,7 +5,7 @@ import Card from "../card";
 const Jobs = () => {
   return (
     <>
-      <div style={{ width: "100%", textAlign: "center", margin: "3rem auto" }}>
+      <div style={{ width: "100%", textAlign: "center", margin: "3rem auto" }} id="nossos-servicos">
         <h2 style={{ fontSize: "3rem" }}>Quais os nossos serviços?</h2>
         <div>
           <div

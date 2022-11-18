@@ -1,6 +1,5 @@
 import * as React from "react";
 import Button from "../button";
-import Logo from "../logo";
 
 const itemFlex = {
   display: "flex",
@@ -29,19 +28,38 @@ const navbarItem = {
   fontSize: "16px !important",
 };
 
+const styleA = {
+  color: "#fff",
+  textDecoration: "none"
+}
+
 const Navbar = () => {
   return (
     <div style={navbar}>
       <div className="logo">
-      <img src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png" alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png" width={48} />
+        <img
+          src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png"
+          alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png"
+          width={48}
+        />
       </div>
       <div className="nav" style={navbarItens}>
-        <div style={navbarItem}>Sobre nós</div>
-        <div style={navbarItem}>Nossos serviços</div>
-        <div style={navbarItem}>Clientes</div>
-        <div style={navbarItem}>Portfólio</div>
+        <div style={navbarItem}>
+          <a href="#footer" style={styleA}>Sobre nós</a>
+        </div>
+        <div style={navbarItem}>
+          <a href="#nossos-servicos" style={styleA}>Nossos serviços</a>
+        </div>
+        <div style={navbarItem}>
+          <a href="#saiba-mais" style={styleA}>Clientes</a>
+        </div>
+        <div style={navbarItem}>
+          <a href="#footer" style={styleA}>Portfólio</a>
+        </div>
         <div style={{ marginLeft: "1rem" }}>
-          <Button text="ENTRE EM CONTATO" scale="0.9" />
+          <a href="#entre-em-contato" style={styleA}>
+            <Button text="ENTRE EM CONTATO" scale="0.9" />
+          </a>
         </div>
       </div>
       <div className="avaliable" style={{ padding: "0.5rem 1rem" }}></div>

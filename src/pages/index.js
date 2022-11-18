@@ -21,6 +21,7 @@ const initialPage = {
 
 
 const IndexPage = () => {
+  
   return (
     <main style={initialPage}>
       <GlobalStyle />

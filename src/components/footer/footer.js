@@ -30,7 +30,7 @@ const contactAndCopy = {
 
 const Footer = () => {
   return (
-    <footer style={gridFooter}>
+    <footer style={gridFooter} id="footer">
       <div style={itemsRow}>
         <div><img src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png" alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png" width={48} /></div>
         <div>
@@ -43,7 +43,7 @@ const Footer = () => {
         <div>Instagram  Whatsapp</div>
         <div>© 2022 GeraZ. Todos os direitos reservados.</div>
       </div>
-      <div style={contactAndCopy}>
+      <div style={contactAndCopy} id="entre-em-contato">
         <div>E-mail de contato: <span style={{color: "#F538EB"}}>geraz@gmail.com</span></div>
         <div>Criado por: <span style={{color: "#F538EB"}}>GeraZ</span></div>
       </div>

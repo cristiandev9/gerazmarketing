@@ -6,34 +6,32 @@ const container = {
   margin: "6rem 0",
   display: "flex",
   justifyContent: "space-around",
-  alignItems:"center"
+  alignItems: "center",
 };
 
 const Clientes = () => {
+  let rows = [];
+  let conts = 0;
+  for (let i = 0; i <= 10; i++) {
+    rows.push(<img
+      src={`https://gerazmarketing.s3.sa-east-1.amazonaws.com/logosclientes/${i}.png`}
+      loading="lazy"
+      width="196"
+      alt="Logo PlaceHolder"
+      className="logo scroll"
+    />);
+
+  }
+  if (rows.length == 0) {
+    return <p>Nenhum item</p>;
+  }
+
   return (
     <>
-      <div style={container}>
-        <img
-          src="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d989ab79fbea17dc6d314e_Logo%20PlaceHolder%204.svg"
-          loading="lazy"
-          width="196"
-          alt="Logo PlaceHolder"
-          className="logo"
-        />
-        <img
-          src="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d989ab79fbea17dc6d314e_Logo%20PlaceHolder%204.svg"
-          loading="lazy"
-          width="196"
-          alt="Logo PlaceHolder"
-          className="logo"
-        />
-        <img
-          src="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d989ab79fbea17dc6d314e_Logo%20PlaceHolder%204.svg"
-          loading="lazy"
-          width="196"
-          alt="Logo PlaceHolder"
-          className="logo"
-        />
+      <div style={container} id="clientes" aria-hidden="true">
+        
+
+        {rows.map(cliente => cliente)}
       </div>
     </>
   );

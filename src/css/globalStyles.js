@@ -8,6 +8,26 @@ body {
     background: #151515;
     font-family: Lato, sans-serif;
     overflow-x: hidden;
-  }`;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .scroll{
+    animation: animate 10s linear infinite;
+    animation-delay: -20s;
+  }
+
+  @keyframes animate {
+    0% { 
+      transform: translateX(130%); 
+    } 
+    100% { 
+      transform: translateX(-130%); 
+    }
+  }
+
+  `;
 
 export default GlobalStyle;
