@@ -1,6 +1,5 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { objLogo } from "./objLogo";
 
 const Logo  = () => {
     return (
