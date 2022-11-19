@@ -30,8 +30,8 @@ const Presentation = () => {
         >
           <div className="image-presentation-only-mobile">
             <img
-              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4+anos.png"
-              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4+anos.png"
+              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"
+              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"
               style={{ maxWidth: "37rem" }}
             />
           </div>
