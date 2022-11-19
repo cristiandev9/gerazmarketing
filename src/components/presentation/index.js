@@ -63,8 +63,8 @@ const Presentation = () => {
 
         <div className="image" style={{ margin: "1rem 5.5rem 0 0" }}>
           <img
-            src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4+anos.png"
-            alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4+anos.png"
+            src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"
+            alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"
             style={{ maxWidth: "37rem" }}
           />
         </div>

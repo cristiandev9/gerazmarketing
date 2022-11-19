@@ -11,7 +11,7 @@ const container = {
 
 const Clientes = () => {
   let rows = [];
-  for (let i = 1; i <= 11; i++) {
+  for (let i = 1; i <= 12; i++) {
     rows.push(<img
       src={`https://gerazmarketing.s3.sa-east-1.amazonaws.com/logosclientes/${i}.png`}
       loading="lazy"
