@@ -5,10 +5,10 @@ const firstSquare = {
   width: "65px",
   height: "40px",
   alignItems: "center",
-  backgroundColor: "rgba(245, 56, 235, 0.6)",
+  backgroundColor: "rgba(157, 114, 177, 0.6)",
 };
 const secondSquare = {
-    backgroundColor: "rgb(245, 56, 235)",
+    backgroundColor: "rgb(157, 114, 177)",
     height: "20px",
     width: "40px",
 };
@@ -26,6 +26,7 @@ const Button = ({ text, scale }) => {
           src="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d9821126a0c0110d7d53be_Arrow%20Icon%20White.svg"
           loading="lazy"
           width="33"
+          alt="https://uploads-ssl.webflow.com/62d97c85c550e860adaf1e79/62d9821126a0c0110d7d53be_Arrow%20Icon%20White.svg"
         />
       </span>
     </div>

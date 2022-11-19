@@ -1,5 +1,4 @@
 import * as React from "react";
-import Logo from "../logo";
 
 const gridFooter = {
   display: "flex",
@@ -23,29 +22,95 @@ const itemsRow = {
 };
 
 const contactAndCopy = {
-    marginTop: "2rem",
-    ...itemsRow
+  marginTop: "2rem",
+  ...itemsRow,
 };
-
 
 const Footer = () => {
   return (
     <footer style={gridFooter} id="footer">
       <div style={itemsRow}>
-        <div><img src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png" alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png" width={48} /></div>
         <div>
-            <input type="text" placeholder="Envie-nos uma mensagem" style={{width:"15rem", height: "2rem"}} />
-            <button style={{width:"7rem", height: "2.35rem", marginLeft: "1rem", background: "transparent", border: "1px solid #fff", color: "#fff"}}>Enviar</button>
+          <img
+            src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png"
+            alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png"
+            width={48}
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="Envie-nos uma mensagem"
+            style={{ width: "15rem", height: "2rem" }}
+          />
+          <button
+            style={{
+              width: "7rem",
+              height: "2.35rem",
+              marginLeft: "1rem",
+              background: "transparent",
+              border: "1px solid #fff",
+              color: "#fff",
+            }}
+          >
+            Enviar
+          </button>
         </div>
       </div>
       <div style={lineDivider}></div>
       <div style={itemsRow}>
-        <div>Instagram  Whatsapp</div>
-        <div>© 2022 GeraZ. Todos os direitos reservados.</div>
+        <div>
+          <a
+            href="https://wa.me/5527998691873?text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+atendimento."
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
+              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
+              width="27px"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/gerazmarketing/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/instagram.png"
+              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/instagram.png"
+              width="27px"
+              style={{ marginLeft: "1rem" }}
+            />
+          </a>
+        </div>
+        <div>© 2022 GeraZ Marketing. Todos os direitos reservados.</div>
       </div>
       <div style={contactAndCopy} id="entre-em-contato">
-        <div>E-mail de contato: <span style={{color: "#F538EB"}}>geraz@gmail.com</span></div>
-        <div>Criado por: <span style={{color: "#F538EB"}}>GeraZ</span></div>
+        <div>
+          E-mail de contato:{" "}
+          <span
+            style={{
+              color: "rgb(157, 114, 177)",
+              fontWeight: "bold",
+              letterSpacing: "1px",
+            }}
+          >
+            geraz@gmail.com
+          </span>
+        </div>
+        <div>
+          Criado por:{" "}
+          <span
+            style={{
+              color: "rgb(157, 114, 177)",
+              fontWeight: "bold",
+              letterSpacing: "1px",
+            }}
+          >
+            GeraZ
+          </span>
+        </div>
       </div>
     </footer>
   );

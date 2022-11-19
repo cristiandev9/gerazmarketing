@@ -11,18 +11,18 @@ const container = {
 
 const Clientes = () => {
   let rows = [];
-  let conts = 0;
-  for (let i = 0; i <= 10; i++) {
+  for (let i = 1; i <= 11; i++) {
     rows.push(<img
       src={`https://gerazmarketing.s3.sa-east-1.amazonaws.com/logosclientes/${i}.png`}
       loading="lazy"
       width="196"
       alt="Logo PlaceHolder"
       className="logo scroll"
+      key={i}
     />);
 
   }
-  if (rows.length == 0) {
+  if (rows.length === 0) {
     return <p>Nenhum item</p>;
   }
 

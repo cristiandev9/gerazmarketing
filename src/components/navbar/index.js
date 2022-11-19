@@ -53,9 +53,9 @@ const Navbar = () => {
         <div style={navbarItem}>
           <a href="#saiba-mais" style={styleA}>Clientes</a>
         </div>
-        <div style={navbarItem}>
+        {/* <div style={navbarItem}>
           <a href="#footer" style={styleA}>Portfólio</a>
-        </div>
+        </div> */}
         <div style={{ marginLeft: "1rem" }}>
           <a href="#entre-em-contato" style={styleA}>
             <Button text="ENTRE EM CONTATO" scale="0.9" />

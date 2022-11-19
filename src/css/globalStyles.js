@@ -21,10 +21,10 @@ body {
 
   @keyframes animate {
     0% { 
-      transform: translateX(130%); 
+      transform: translateX(190%); 
     } 
     100% { 
-      transform: translateX(-130%); 
+      transform: translateX(-230%); 
     }
   }
 
