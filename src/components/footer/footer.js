@@ -38,23 +38,25 @@ const Footer = () => {
           />
         </div>
         <div>
-          <input
+          {/* <input
             type="text"
             placeholder="Envie-nos uma mensagem"
             style={{ width: "15rem", height: "2rem" }}
-          />
-          <button
+          /> */}
+          <a 
+          href="https://wa.me/5527998691873?text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+atendimento."
+          target="_blank"
             style={{
-              width: "7rem",
-              height: "2.35rem",
+              padding: ".7rem 2rem",
               marginLeft: "1rem",
               background: "transparent",
               border: "1px solid #fff",
               color: "#fff",
+              textDecoration: "none"
             }}
           >
-            Enviar
-          </button>
+            Clique aqui para falar conosco no whatsapp!
+          </a>
         </div>
       </div>
       <div style={lineDivider}></div>
