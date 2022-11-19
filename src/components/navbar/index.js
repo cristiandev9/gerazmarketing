@@ -35,7 +35,7 @@ const styleA = {
 
 const Navbar = () => {
   return (
-    <div style={navbar}>
+    <div className="navbar" style={navbar}>
       <div className="logo">
         <img
           src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png"
@@ -43,7 +43,7 @@ const Navbar = () => {
           width={48}
         />
       </div>
-      <div className="nav" style={navbarItens}>
+      <div className="nav nav-device-lg" style={navbarItens}>
         <div style={navbarItem}>
           <a href="#footer" style={styleA}>Sobre nós</a>
         </div>

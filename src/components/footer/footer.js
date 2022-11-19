@@ -37,13 +37,14 @@ const Footer = () => {
             width={48}
           />
         </div>
-        <div>
+        <div className="div-button-contact-whatsapp">
           {/* <input
             type="text"
             placeholder="Envie-nos uma mensagem"
             style={{ width: "15rem", height: "2rem" }}
           /> */}
           <a 
+          className="contact-whatsapp"
           href="https://wa.me/5527998691873?text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+atendimento."
           target="_blank"
             style={{
@@ -59,9 +60,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div style={lineDivider}></div>
-      <div style={itemsRow}>
-        <div>
+      <div className="line-divider-footer" style={lineDivider}></div>
+      <div className="social-and-copyright" style={itemsRow}>
+        <div className="socials">
           <a
             href="https://wa.me/5527998691873?text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+atendimento."
             target="_blank"
@@ -86,7 +87,7 @@ const Footer = () => {
             />
           </a>
         </div>
-        <div>© 2022 GeraZ Marketing. Todos os direitos reservados.</div>
+        <div className="copyright">© 2022 GeraZ Marketing. Todos os direitos reservados.</div>
       </div>
       <div style={contactAndCopy} id="entre-em-contato">
         <div>

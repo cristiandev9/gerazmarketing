@@ -22,6 +22,7 @@ const Clientes = () => {
     />);
 
   }
+  
   if (rows.length === 0) {
     return <p>Nenhum item</p>;
   }
@@ -29,8 +30,6 @@ const Clientes = () => {
   return (
     <>
       <div style={container} id="clientes" aria-hidden="true">
-        
-
         {rows.map(cliente => cliente)}
       </div>
     </>

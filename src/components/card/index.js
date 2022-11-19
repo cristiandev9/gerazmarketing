@@ -3,6 +3,7 @@ import * as React from "react";
 const Card = ({ title, text }) => {
   return (
     <div
+      className="card-jobs"
       style={{
         backgroundColor: "#292929",
         margin: "2rem",
@@ -21,7 +22,7 @@ const Card = ({ title, text }) => {
         className="icon-small"
       />
 
-      <div style={{display: "flex"}}>
+      <div className="card-jobs-int" style={{display: "flex"}}>
         {title.map((ttl, ind) => (
           <h2
             key={ind}
