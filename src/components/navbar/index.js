@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
       <div className="nav nav-device-lg" style={navbarItens}>
         <div style={navbarItem}>
-          <a href="#footer" style={styleA}>Sobre nós</a>
+          <a href="#sobre-nos" style={styleA}>Sobre nós</a>
         </div>
         <div style={navbarItem}>
           <a href="#nossos-servicos" style={styleA}>Nossos serviços</a>

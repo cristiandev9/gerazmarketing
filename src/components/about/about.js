@@ -2,7 +2,7 @@ import * as React from "react";
 
 const About = () => {
   return (
-    <div className="container-ab" style={{ margin: "2rem 4.2rem 4rem  4.2rem" }}>
+    <div className="container-ab" id="sobre-nos" style={{ margin: "2rem 4.2rem 4rem  4.2rem" }}>
       <h1 style={{ fontSize: "3rem", textAlign: "center" }}>Sobre nós</h1>
 
       <div
