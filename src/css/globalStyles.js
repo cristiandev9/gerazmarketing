@@ -61,8 +61,7 @@ body {
 
   @media (max-width: 1016px){
     .navbar{
-      margin-left: 2rem !important;
-      margin-top: 2rem !important;
+      padding: 1.5rem 1rem 1.3rem 1.5rem !important;
       border:none !important;
       margin-bottom: -.5rem !important;
     }
@@ -142,7 +141,8 @@ body {
 
     .image-presentation-only-mobile{
       display:block !important;
-      margin-left: -1.7rem;
+      margin-left: -1.9rem;
+      margin-top: 4rem;
     }
 
     .image-presentation-only-mobile > img{
