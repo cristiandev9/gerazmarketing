@@ -167,6 +167,30 @@ body {
       text-align:right;
     }
 
+    .container-about{
+      padding: 1rem !important;
+    }
+    
+    .container-ab{
+      margin: 1rem !important;
+    }
+
+    .container-img-sobre-nos{
+      height: 13.5rem !important;
+      width: 100% !important;
+      text-align:center !important;
+    }
+    .container-img-text-sobre{
+      display:block !important;
+    }
+
+    .container-img-sobre-nos > img {
+      width: 10rem !important;
+      margin: 0 auto !important;
+    }
+
+    .
+
   }
   `;
 

@@ -2,10 +2,11 @@ import * as React from "react";
 
 const About = () => {
   return (
-    <div style={{ margin: "2rem 4.2rem 4rem  4.2rem" }}>
+    <div className="container-ab" style={{ margin: "2rem 4.2rem 4rem  4.2rem" }}>
       <h1 style={{ fontSize: "3rem", textAlign: "center" }}>Sobre nós</h1>
 
       <div
+       className="container-about"
         style={{
           backgroundColor: "rgb(41, 41, 41)",
           padding: "3rem",
@@ -14,8 +15,8 @@ const About = () => {
           letterSpacing: "1px",
         }}
       >
-        <div style={{ display: "flex" }}>
-          <div style={{ width: "60rem", height: "27.3rem", marginRight: "3rem" }}>
+        <div className="container-img-text-sobre" style={{ display: "flex" }}>
+          <div className="container-img-sobre-nos" style={{ width: "60rem", height: "27.3rem", marginRight: "3rem" }}>
             <img
               src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-sobre-nos.jpg"
               alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-sobre-nos.jpg"
@@ -26,7 +27,7 @@ const About = () => {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A &nbsp;
             <b style={{ color: "rgb(157, 114, 177)" }}>Gera Z Marketing</b>
             &nbsp; foi criada no dia 20 de Novembro de 2018, pela &nbsp;
-            <b style={{ color: "rgb(157, 114, 177)" }}>CEO Milena Perin</b>
+            <b class="ceo-milena-perin" style={{ color: "rgb(157, 114, 177)" }}>CEO Milena Perin</b>
             ,&nbsp; a princípio o nome da empresa era &nbsp;
             <b style={{ color: "rgb(157, 114, 177)" }}>MP Marketing</b>&nbsp;
             (as iniciais do nome da idealizadora), em 2020 Milena decidiu
