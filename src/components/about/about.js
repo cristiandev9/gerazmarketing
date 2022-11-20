@@ -90,20 +90,20 @@ const About = () => {
           uma nova instituição onde aproveitou ao máximo o que o curso
           oferecera. No ano de 2018, Milena começou a modelar para uma loja de
           roupas em sua cidade e aproveitou suas habilidades com as redes
-          sociais, e se propôs a cuidar do Instagram da loja, resultado: Ela
-          cuidava do Instagram e ao mesmo tempo era a modelo da marca (como um
-          extra), pois no momento ainda trabalhava na escola de cursos. No
-          ínicio, trabalhou alguns meses apenas usando seu nome, até que chegou
-          o momento de criar um CNPJ profissional e daí surgiu a MP Marketing e
+          sociais, e se propôs a cuidar do instagram da loja, resultado: Ela
+          cuidava do instagram e ao mesmo tempo era a modelo da marca (como um
+          extra), pois no momento ainda trabalhava na escola de cursos. A partir daí, Milena viu uma oportunidade
+          de investir ainda mais na carreira de Marketing. Ainda no ano de
+          2018 mudou de emprego e começou a trabalhar (CLT), sendo responsável
+          pelo Marketing em uma farmácia de sua cidade e ao mesmo tempo cuidava
+          das redes sociais de outras empresas.
+          Ela trabalhou alguns meses apenas usando seu nome, até que chegou
+          o momento de criar um CNPJ profissional e assim surgiu a MP Marketing e
           consequentemente a GERA Z. Os primeiros serviços oferecidos foram:
           Gestão de redes sociais (fotografias, produção de vídeos, postagens e
           estratégias digitais), Criação de logo (identidade visual) e Designer
-          Gráfico (Produção de artes). A partir daí, Milena viu uma oportunidade
-          para investir ainda mais na carreira de Marketing. Ainda no ano de
-          2018 mudou de emprego e começou a trabalhar (CLT), sendo responsável
-          pelo Marketing em uma farmácia de sua cidade e ao mesmo tempo cuidava
-          das redes sociais de outras empresas. Milena trabalhava em tempo
-          integral na farmácia e durante suas folgas atendia seus clientes, até
+          Gráfico (Produção de artes).
+          Milena trabalhava em tempo integral na farmácia e durante suas folgas atendia seus clientes, até
           que chegou um momento que foi necessário escolher entre seu emprego de
           carteira assinada ou empreender com a sua gestão de redes sociais. Em
           abril de 2021, pediu demissão da farmácia para se dedicar apenas aos
