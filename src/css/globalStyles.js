@@ -31,8 +31,32 @@ body {
     }
   }
 
+  .socials{
+    display:flex;
+  }
+
   .image-presentation-only-mobile{
     display:none;
+  }
+
+  .instagram-container{
+    display:flex; 
+    align-items:center;
+    text-decoration:none;
+    color:#fff;
+  }
+  .instagram-container > span{
+    margin-left:.6rem;
+  }
+
+  .whatsapp-container{
+    display:flex; 
+    align-items:center;
+    text-decoration:none;
+    color:#fff;
+  }
+  .whatsapp-container > span{
+    margin-left:.6rem;
   }
 
   @media (max-width: 1016px){
@@ -74,9 +98,7 @@ body {
       padding: 2rem 1rem 5rem 1rem !important;
     }
 
-    .card-jobs-int{
-      display: block !important;
-    }
+   
 
     .cards-jobs-all{
       display: block !important;
@@ -111,8 +133,7 @@ body {
 
     .socials{
       display:flex !important;
-      justify-content:space-evenly !important;
-      margin-top: 2rem;
+      justify-content:space-between !important;
     }
 
     .socials > a > img{
@@ -137,6 +158,15 @@ body {
     .line-divider-footer{
       display:none;
     }
+
+    .logo-and-contact{
+      display:none !important;
+    }
+
+    .created-by{
+      text-align:right;
+    }
+
   }
   `;
 

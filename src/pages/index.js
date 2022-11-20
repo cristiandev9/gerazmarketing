@@ -5,6 +5,7 @@ import Presentation from "../components/presentation";
 import Jobs from "../components/jobs";
 import Clients from "../components/clients";
 import Footer from "../components/footer/footer";
+import About from "../components/about/about";
 
 const primaryColorBackground = {
   backgroundColor: "#151515",
@@ -29,6 +30,7 @@ const IndexPage = () => {
       <Presentation/>
       <Clients/>
       <Jobs/>
+      <About/>
       <Footer/>
     </main>
   );

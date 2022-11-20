@@ -29,7 +29,7 @@ const contactAndCopy = {
 const Footer = () => {
   return (
     <footer style={gridFooter} id="footer">
-      <div style={itemsRow}>
+      <div className="logo-and-contact" style={itemsRow}>
         <div>
           <img
             src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png"
@@ -67,17 +67,20 @@ const Footer = () => {
             href="https://wa.me/5527998691873?text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+atendimento."
             target="_blank"
             rel="noreferrer"
+            className="whatsapp-container"
           >
             <img
               src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
               alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
               width="27px"
             />
+            <span>Entre em contato</span>
           </a>
           <a
             href="https://www.instagram.com/gerazmarketing/"
             target="_blank"
             rel="noreferrer"
+            className="instagram-container"
           >
             <img
               src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/instagram.png"
@@ -85,6 +88,7 @@ const Footer = () => {
               width="27px"
               style={{ marginLeft: "1rem" }}
             />
+            <span>Siga-nos</span>
           </a>
         </div>
         <div className="copyright">© 2022 GeraZ Marketing. Todos os direitos reservados.</div>
@@ -102,7 +106,7 @@ const Footer = () => {
             geraz@gmail.com
           </span>
         </div>
-        <div>
+        <div className="created-by">
           Criado por:{" "}
           <span
             style={{
