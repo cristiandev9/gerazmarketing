@@ -3,7 +3,7 @@ import * as React from "react";
 const container = {
   backgroundColor: "#292929",
   minHeight: "12rem",
-  margin: "6rem 0",
+  margin: "3rem 0 6rem 0",
   display: "flex",
   justifyContent: "space-around",
   alignItems: "center",

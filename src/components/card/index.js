@@ -8,7 +8,7 @@ const Card = ({ title, text }) => {
         backgroundColor: "#292929",
         margin: "2rem",
         padding: "3rem 2.5rem",
-        width: "21.5rem",
+        width: "20rem",
         height: "17rem",
         textAlign: "left",
       }}

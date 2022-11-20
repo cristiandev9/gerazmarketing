@@ -26,7 +26,7 @@ const Presentation = () => {
       <div style={presentation}>
         <div
           className="div-text-presentation"
-          style={{ display: "block", margin: "3rem 0 0rem 4.5rem" }}
+          style={{ display: "block", margin: "9rem 0 0rem 4.5rem" }}
         >
           <div className="image-presentation-only-mobile">
             <img
@@ -61,7 +61,7 @@ const Presentation = () => {
           </a>
         </div>
 
-        <div className="image" style={{ margin: "1rem 5.5rem 0 0" }}>
+        <div className="image" style={{ margin: "8rem 5.5rem 0 0" }}>
           <img
             src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"
             alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"

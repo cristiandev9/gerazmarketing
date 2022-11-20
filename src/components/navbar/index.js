@@ -8,8 +8,10 @@ const itemFlex = {
 const navbar = {
   display: itemFlex.display,
   justifyContent: "space-between",
-  margin: "1.3rem 4.5rem",
-  position: "sticky",
+  padding: "1.3rem 4.5rem",
+  position: "fixed",
+  width: "100%",
+  zIndex: "9999",
   height: "auto",
   minHeight: "4px",
   backgroundColor: "#151515",
@@ -20,6 +22,7 @@ const navbar = {
 const navbarItens = {
   display: itemFlex.display,
   marginBottom: ".5rem",
+  marginLeft: "-9.8rem"
 };
 
 const navbarItem = {

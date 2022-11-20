@@ -16,7 +16,7 @@ const About = () => {
         }}
       >
         <div className="container-img-text-sobre" style={{ display: "flex" }}>
-          <div className="container-img-sobre-nos" style={{ width: "60rem", height: "27.3rem", marginRight: "3rem" }}>
+          <div className="container-img-sobre-nos" style={{ width: "60rem", height: "21.5rem", marginRight: "3rem" }}>
             <img
               src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-sobre-nos.jpg"
               alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-sobre-nos.jpg"
