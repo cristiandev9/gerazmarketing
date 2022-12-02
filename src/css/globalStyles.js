@@ -39,6 +39,11 @@ body {
     display:none;
   }
 
+
+  .nav-show-only-mobile{
+    display:none;
+  }
+
   .instagram-container{
     display:flex; 
     align-items:center;
@@ -189,7 +194,12 @@ body {
       margin: 0 auto !important;
     }
 
-    .
+    .nav-show-only-mobile{
+      display:flex;
+      position: absolute;
+      right:4.5rem;
+      top: 2.2rem;
+    }
 
   }
   `;

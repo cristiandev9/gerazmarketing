@@ -1,5 +1,7 @@
+import { MenuOutlined } from "@ant-design/icons";
 import * as React from "react";
 import Button from "../button";
+
 
 const itemFlex = {
   display: "flex",
@@ -65,6 +67,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+      <div className="nav-show-only-mobile"> <MenuOutlined style={{color:"#fff", fontSize:"23px"}}/> </div>
       <div className="avaliable" style={{ padding: "0.5rem 1rem" }}></div>
     </div>
   );

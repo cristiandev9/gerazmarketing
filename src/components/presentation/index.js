@@ -14,7 +14,7 @@ const presentation = {
 const TextPresentation = () => (
   <p>
     Invista em sua rede social com publicações criativas e inovadoras.
-    <br /> Inumeros negócios vem se destacando e faturando através do
+    <br /> Inúmeros negócios vem se destacando e faturando através do
     Marketing Digital.
     <br /> Somos a geração das ideias criativas!
   </p>
