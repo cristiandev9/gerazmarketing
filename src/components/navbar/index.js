@@ -38,7 +38,11 @@ const styleA = {
   textDecoration: "none"
 }
 
-const Navbar = () => {
+const Navbar = ({setNavMobileActived, navMobileActived}) => {
+  function handleNavbar(){
+    setNavMobileActived(!navMobileActived);
+  }
+
   return (
     <div className="navbar" style={navbar}>
       <div className="logo">
@@ -58,17 +62,15 @@ const Navbar = () => {
         <div style={navbarItem}>
           <a href="#saiba-mais" style={styleA}>Clientes</a>
         </div>
-        {/* <div style={navbarItem}>
-          <a href="#footer" style={styleA}>Portfólio</a>
-        </div> */}
         <div style={{ marginLeft: "1rem" }}>
           <a href="#entre-em-contato" style={styleA}>
             <Button text="ENTRE EM CONTATO" scale="0.9" />
           </a>
         </div>
       </div>
-      <div className="nav-show-only-mobile"> <MenuOutlined style={{color:"#fff", fontSize:"23px"}}/> </div>
+      <div className="nav-show-only-mobile" onClick={handleNavbar} style={{zIndex: "9999"}}> <MenuOutlined style={{color:"#fff", fontSize:"23px"}}/> </div>
       <div className="avaliable" style={{ padding: "0.5rem 1rem" }}></div>
+
     </div>
   );
 };

@@ -1,6 +1,11 @@
 import * as React from "react";
+import { useState } from "react";
 
 const About = () => {
+  const [verMais, setVerMais] = useState(false);
+  function handleMore(){
+    setVerMais(!verMais);
+  }
   return (
     <div className="container-ab" id="sobre-nos" style={{ margin: "2rem 4.2rem 4rem  4.2rem" }}>
       <h1 style={{ fontSize: "3rem", textAlign: "center" }}>Sobre nós</h1>
@@ -16,7 +21,7 @@ const About = () => {
         }}
       >
         <div className="container-img-text-sobre" style={{ display: "flex" }}>
-          <div className="container-img-sobre-nos" style={{ width: "60rem", height: "21.5rem", marginRight: "3rem" }}>
+          <div className="container-img-sobre-nos" style={{ width: "60rem", height: "28.5rem", marginRight: "3rem" }}>
             <img
               src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-sobre-nos.jpg"
               alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-sobre-nos.jpg"
@@ -27,7 +32,7 @@ const About = () => {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A &nbsp;
             <b style={{ color: "rgb(157, 114, 177)" }}>Gera Z Marketing</b>
             &nbsp; foi criada no dia 20 de Novembro de 2018, pela &nbsp;
-            <b class="ceo-milena-perin" style={{ color: "rgb(157, 114, 177)" }}>CEO Milena Perin</b>
+            <b className="ceo-milena-perin" style={{ color: "rgb(157, 114, 177)" }}>CEO Milena Perin</b>
             ,&nbsp; a princípio o nome da empresa era &nbsp;
             <b style={{ color: "rgb(157, 114, 177)" }}>MP Marketing</b>&nbsp;
             (as iniciais do nome da idealizadora), em 2020 Milena decidiu
@@ -64,7 +69,9 @@ const About = () => {
           </div>
         </div>
         <br />
-        <div>
+        
+        {verMais && (
+          <div>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conheça um pouco mais sobre a &nbsp;
           <b style={{ color: "rgb(157, 114, 177)" }}>CEO Milena Perin</b>:
           <br />
@@ -116,6 +123,15 @@ const About = () => {
           Criação de Identidade Visual, Tráfego Pago, Ensaios corporativos e
           muito mais…
         </div>
+        )}
+
+        <div style={{textAlign:"center", margin:"1rem 0 1rem 0"}}>
+          <button onClick={handleMore} style={{padding: "12px 20px", textAlign: "center", borderRadius: "8px", border: "none"}}> {!verMais && (<span>Clique aqui para conhecer mais sobre a <br/><b style={{ color: "rgb(157, 114, 177)" }}>CEO Milena Perin</b></span>) }
+
+          {verMais && (<span>Reduzir Conteúdo Do Sobre Nós</span>) }
+          </button>
+        </div>
+        
       </div>
     </div>
   );

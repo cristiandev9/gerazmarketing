@@ -15,7 +15,7 @@ const Jobs = () => {
             style={{
               display: "grid",
               gridTemplateColumns: "auto auto auto",
-              padding: "10px",
+              padding: "0px",
               placeItems: "center",
             }}
           >

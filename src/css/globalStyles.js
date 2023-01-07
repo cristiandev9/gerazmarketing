@@ -22,14 +22,6 @@ body {
     animation-delay: -20s;
   }
 
-  @keyframes animate {
-    0% { 
-      transform: translateX(190%); 
-    } 
-    100% { 
-      transform: translateX(-230%); 
-    }
-  }
 
   .socials{
     display:flex;
@@ -64,7 +56,29 @@ body {
     margin-left:.6rem;
   }
 
+  @media (min-width: 1017px){
+
+    @keyframes animate {
+      0% { 
+        transform: translateX(190%); 
+      } 
+      100% { 
+        transform: translateX(-240%); 
+      }
+    }
+  }
+
   @media (max-width: 1016px){
+
+    
+  @keyframes animate {
+    0% { 
+      transform: translateX(530%); 
+    } 
+    100% { 
+      transform: translateX(-480%); 
+    }
+  }
     .navbar{
       padding: 1.5rem 1rem 1.3rem 1.5rem !important;
       border:none !important;

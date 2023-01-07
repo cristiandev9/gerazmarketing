@@ -16,7 +16,7 @@ const Clientes = () => {
       src={`https://gerazmarketing.s3.sa-east-1.amazonaws.com/logosclientes/${i}.png`}
       loading="lazy"
       width="196"
-      alt="Logo PlaceHolder"
+      alt="Logo"
       className="logo scroll"
       key={i}
     />);
