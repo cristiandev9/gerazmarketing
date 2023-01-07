@@ -215,6 +215,15 @@ body {
       top: 2.2rem;
     }
 
+    a{
+      text-decoration: none !important;
+    }
+
+    .navbar-mobile a{
+      color: #fff !important;
+    }
+
+
   }
   `;
 

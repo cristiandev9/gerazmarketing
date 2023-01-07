@@ -1,4 +1,4 @@
-import { MenuOutlined } from "@ant-design/icons";
+import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
 import * as React from "react";
 import Button from "../button";
 
@@ -13,7 +13,7 @@ const navbar = {
   padding: "1.3rem 4.5rem",
   position: "fixed",
   width: "100%",
-  zIndex: "9999",
+  zIndex: "999999",
   height: "auto",
   minHeight: "4px",
   backgroundColor: "#151515",
@@ -52,6 +52,10 @@ const Navbar = ({setNavMobileActived, navMobileActived}) => {
           width={48}
         />
       </div>
+      <div className="nav-show-only-mobile" onClick={handleNavbar}>
+        {navMobileActived && (<CloseOutlined style={{color:"#fff", fontSize:"23px"}}/>)} 
+        {!navMobileActived && (<MenuOutlined style={{color:"#fff", fontSize:"23px"}}/>)} 
+      </div>
       <div className="nav nav-device-lg" style={navbarItens}>
         <div style={navbarItem}>
           <a href="#sobre-nos" style={styleA}>Sobre nós</a>
@@ -68,7 +72,7 @@ const Navbar = ({setNavMobileActived, navMobileActived}) => {
           </a>
         </div>
       </div>
-      <div className="nav-show-only-mobile" onClick={handleNavbar} style={{zIndex: "9999"}}> <MenuOutlined style={{color:"#fff", fontSize:"23px"}}/> </div>
+      
       <div className="avaliable" style={{ padding: "0.5rem 1rem" }}></div>
 
     </div>

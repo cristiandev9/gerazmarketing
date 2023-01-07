@@ -31,8 +31,18 @@ const IndexPage = () => {
       <GlobalStyle />
       <Navbar setNavMobileActived={setNavMobileActived} navMobileActived={navMobileActived}/>
       {navMobileActived &&(
-        <nav className="navbar-mobile nav-show-only-mobile" style={{width: "100vh", height:"100%", zIndex: "9998", background: "#000"}}>
-
+        <nav className="navbar-mobile nav-show-only-mobile" style={{width: "100vh", height:"100%", zIndex: "9998", background: "#000", position: "fixed", right: 0, bottom: 0, top: 0, left: 0}}>
+          <div style={{display: "block"}}>
+            <div style={{marginTop: "8rem", marginLeft: "3rem", color: "#fff", fontSize: "23px"}}>
+              <a href="#sobre-nos" onClick={()=>setNavMobileActived(false)} style={{color:"#fff"}}>Sobre nós</a>
+            </div>
+            <div style={{marginTop: "2rem", marginLeft: "3rem", color: "#fff", fontSize: "23px"}}>
+              <a href="#nossos-servicos" onClick={()=>setNavMobileActived(false)}>Nossos serviços</a>
+            </div>
+            <div style={{marginTop: "2rem", marginLeft: "3rem", color: "#fff", fontSize: "23px"}}>
+              <a href="#saiba-mais" onClick={()=>setNavMobileActived(false)}>Clientes</a>
+            </div>
+          </div>
         </nav>
       )}
       <Presentation/>
