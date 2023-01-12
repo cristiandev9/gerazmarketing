@@ -14,8 +14,8 @@ const presentation = {
 const TextPresentation = () => (
   <p>
     Invista em sua rede social com publicações criativas e inovadoras.
-    <br /> Inúmeros negócios vem se destacando e faturando através do
-    Marketing Digital.
+    <br /> Inúmeros negócios vem se destacando e faturando através do Marketing
+    Digital.
     <br /> Somos a geração das ideias criativas!
   </p>
 );
@@ -30,8 +30,8 @@ const Presentation = () => {
         >
           <div className="image-presentation-only-mobile">
             <img
-              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"
-              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"
+              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-principal-geraz.png"
+              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-principal-geraz.png"
               style={{ maxWidth: "37rem" }}
             />
           </div>
