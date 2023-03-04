@@ -20,6 +20,9 @@ const TextPresentation = () => (
   </p>
 );
 
+const bannerMainUrl =
+  "https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/banner-geraz.png";
+
 const Presentation = () => {
   return (
     <>
@@ -30,8 +33,8 @@ const Presentation = () => {
         >
           <div className="image-presentation-only-mobile">
             <img
-              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-principal-geraz.png"
-              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-principal-geraz.png"
+              src={bannerMainUrl}
+              alt={bannerMainUrl}
               style={{ maxWidth: "37rem" }}
             />
           </div>
@@ -63,8 +66,8 @@ const Presentation = () => {
 
         <div className="image" style={{ margin: "8rem 5.5rem 0 0" }}>
           <img
-            src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"
-            alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/4anos.png"
+            src={bannerMainUrl}
+            alt={bannerMainUrl}
             style={{ maxWidth: "37rem" }}
           />
         </div>
