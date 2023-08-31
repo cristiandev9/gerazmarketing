@@ -8,7 +8,7 @@ const firstSquare = {
   backgroundColor: "rgba(157, 114, 177, 0.6)",
 };
 const secondSquare = {
-    backgroundColor: "rgb(157, 114, 177)",
+    backgroundColor: "#DB88D4",
     height: "20px",
     width: "40px",
 };

@@ -98,7 +98,7 @@ const Footer = () => {
           E-mail de contato:{" "}
           <span
             style={{
-              color: "rgb(157, 114, 177)",
+              color: "#DB88D4",
               fontWeight: "bold",
               letterSpacing: "1px",
             }}
@@ -110,7 +110,7 @@ const Footer = () => {
           Criado por:{" "}
           <span
             style={{
-              color: "rgb(157, 114, 177)",
+              color: "#DB88D4",
               fontWeight: "bold",
               letterSpacing: "1px",
             }}

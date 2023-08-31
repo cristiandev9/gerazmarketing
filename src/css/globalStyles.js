@@ -132,7 +132,7 @@ body {
       border:none !important;
       padding: 0 !important;
       margin-left: 0 !important;
-      color:rgb(157, 114, 177) !important;
+      color:#DB88D4 !important;
       font-weight: 600 !important;
     }
 

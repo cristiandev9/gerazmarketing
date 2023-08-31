@@ -30,11 +30,11 @@ const About = () => {
           </div>
           <div>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A &nbsp;
-            <b style={{ color: "rgb(157, 114, 177)" }}>Gera Z Marketing</b>
+            <b style={{ color: "#DB88D4" }}>Gera Z Marketing</b>
             &nbsp; foi criada no dia 20 de Novembro de 2018, pela &nbsp;
-            <b className="ceo-milena-perin" style={{ color: "rgb(157, 114, 177)" }}>CEO Milena Perin</b>
+            <b className="ceo-milena-perin" style={{ color: "#DB88D4" }}>CEO Milena Perin</b>
             ,&nbsp; a princípio o nome da empresa era &nbsp;
-            <b style={{ color: "rgb(157, 114, 177)" }}>MP Marketing</b>&nbsp;
+            <b style={{ color: "#DB88D4" }}>MP Marketing</b>&nbsp;
             (as iniciais do nome da idealizadora), em 2020 Milena decidiu
             reformular a identidade visual e o nome da empresa. A logo sofreu
             apenas uma alteração no ícone, que foi a substituição das letras MP
@@ -42,9 +42,9 @@ const About = () => {
             MP Marketing.
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por que Milena escolheu o nome &nbsp;
-            <b style={{ color: "rgb(157, 114, 177)" }}>GERA Z</b>&nbsp;?&nbsp; O
+            <b style={{ color: "#DB88D4" }}>GERA Z</b>&nbsp;?&nbsp; O
             nome Gera Z vem de &nbsp;
-            <b style={{ color: "rgb(157, 114, 177)" }}>Geração Z</b>&nbsp;, que
+            <b style={{ color: "#DB88D4" }}>Geração Z</b>&nbsp;, que
             representa aqueles que nasceram entre o fim da década de 1990 e
             2010. Além de Milena ter nascido na época, sua profissão tem tudo a
             ver com as características da geração que ela pertence.
@@ -61,9 +61,9 @@ const About = () => {
             inovadores e tecnológicos para seus clientes.
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É impossível falar da &nbsp;
-            <b style={{ color: "rgb(157, 114, 177)" }}>Gera Z</b>&nbsp; e não
+            <b style={{ color: "#DB88D4" }}>Gera Z</b>&nbsp; e não
             vincular o nome: &nbsp;
-            <b style={{ color: "rgb(157, 114, 177)" }}>Milena</b>.&nbsp; Todos
+            <b style={{ color: "#DB88D4" }}>Milena</b>.&nbsp; Todos
             os seus clientes e pessoas que já ouviram falar na empresa, sabem
             que Milena é a cara da Gera Z.
           </div>
@@ -73,7 +73,7 @@ const About = () => {
         {verMais && (
           <div>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conheça um pouco mais sobre a &nbsp;
-          <b style={{ color: "rgb(157, 114, 177)" }}>CEO Milena Perin</b>:
+          <b style={{ color: "#DB88D4" }}>CEO Milena Perin</b>:
           <br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ela teve seu primeiro contato com a área
           do Marketing em 2013, no ensino médio, onde cursou técnico em
@@ -126,7 +126,7 @@ const About = () => {
         )}
 
         <div style={{textAlign:"center", margin:"1rem 0 1rem 0"}}>
-          <button onClick={handleMore} style={{padding: "12px 20px", textAlign: "center", borderRadius: "8px", border: "none"}}> {!verMais && (<span>Clique aqui para conhecer mais sobre a <br/><b style={{ color: "rgb(157, 114, 177)" }}>CEO Milena Perin</b></span>) }
+          <button onClick={handleMore} style={{padding: "12px 20px", textAlign: "center", borderRadius: "8px", border: "none"}}> {!verMais && (<span>Clique aqui para conhecer mais sobre a <br/><b style={{ color: "#DB88D4" }}>CEO Milena Perin</b></span>) }
 
           {verMais && (<span>Reduzir Conteúdo Do Sobre Nós</span>) }
           </button>
