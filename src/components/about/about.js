@@ -8,7 +8,7 @@ const About = () => {
   }
   return (
     <div className="container-ab" id="sobre-nos" style={{ margin: "2rem 4.2rem 4rem  4.2rem" }}>
-      <h1 style={{ fontSize: "3rem", textAlign: "center" }}>Sobre nós</h1>
+      <h1 style={{ fontSize: "3rem", textAlign: "center", color: "#DEEB21" }}>Sobre nós</h1>
 
       <div
        className="container-about"
@@ -23,8 +23,8 @@ const About = () => {
         <div className="container-img-text-sobre" style={{ display: "flex" }}>
           <div className="container-img-sobre-nos" style={{ width: "60rem", height: "28.5rem", marginRight: "3rem" }}>
             <img
-              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-sobre-nos.jpg"
-              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/foto-sobre-nos.jpg"
+              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/IMG_6132-Edit.JPG"
+              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/IMG_6132-Edit.JPG"
               width="100%"
             />
           </div>

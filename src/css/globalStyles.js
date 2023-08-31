@@ -106,6 +106,7 @@ body {
       text-align:left;
       margin-top: -2rem !important;
       margin-bottom: 0.6rem !important;
+      color:#DEEB21;
     }
     #nossos-servicos{
       margin: 0rem !important;
