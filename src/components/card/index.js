@@ -40,7 +40,7 @@ const Card = ({ title, text }) => {
           marginTop: "-.3rem",
           color: "#BABABA",
           letterSpacing: "0.3px",
-          textAlign: "center"
+          textAlign: "left"
         }}
       >
         {text.map((txt, ind) => (
