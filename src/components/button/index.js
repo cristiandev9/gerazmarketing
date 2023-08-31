@@ -5,10 +5,10 @@ const firstSquare = {
   width: "65px",
   height: "40px",
   alignItems: "center",
-  backgroundColor: "rgba(157, 114, 177, 0.6)",
+  backgroundColor: "#DEEB2162",
 };
 const secondSquare = {
-    backgroundColor: "#DB88D4",
+    backgroundColor: "#DEEB21",
     height: "20px",
     width: "40px",
 };
