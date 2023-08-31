@@ -8,7 +8,7 @@ const Jobs = () => {
         style={{ width: "100%", textAlign: "center", margin: "3rem auto" }}
         id="nossos-servicos"
       >
-        <h2 className="title-jobs" style={{ fontSize: "3rem", marginTop: "-1rem" }}>Quais os nossos serviços?</h2>
+        <h2 className="title-jobs" style={{ fontSize: "3rem", marginTop: "-1rem", color:"#DEEB21"}}>Quais os nossos serviços?</h2>
         <div className="jobs-cards">
           <div 
             className="cards-jobs-all"

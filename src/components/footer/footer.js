@@ -34,7 +34,7 @@ const Footer = () => {
           <img
             src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/png+logo+2020+.png"
             alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/png+logo+2020+.png"
-            width={48}
+            width={120}
           />
         </div>
         <div className="div-button-contact-whatsapp">
