@@ -42,18 +42,12 @@ body {
     text-decoration:none;
     color:#fff;
   }
-  .instagram-container > span{
-    margin-left:.6rem;
-  }
 
   .whatsapp-container{
     display:flex; 
     align-items:center;
     text-decoration:none;
     color:#fff;
-  }
-  .whatsapp-container > span{
-    margin-left:.6rem;
   }
 
   @media (min-width: 1017px){

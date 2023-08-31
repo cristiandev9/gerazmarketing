@@ -54,6 +54,7 @@ const Footer = () => {
               border: "1px solid #fff",
               color: "#fff",
               textDecoration: "none"
+            
             }}
           >
             Clique aqui para falar conosco no whatsapp!
@@ -72,7 +73,7 @@ const Footer = () => {
             <img
               src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
               alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
-              width="27px"
+              width="53px"
             />
             <span>Entre em contato</span>
           </a>
@@ -85,7 +86,7 @@ const Footer = () => {
             <img
               src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/instagram.png"
               alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/instagram.png"
-              width="27px"
+              width="53px"
               style={{ marginLeft: "1rem" }}
             />
             <span>Siga-nos</span>
