@@ -54,10 +54,10 @@ body {
 
     @keyframes animate {
       0% { 
-        transform: translateX(190%); 
+        transform: translateX(300%); 
       } 
       100% { 
-        transform: translateX(-240%); 
+        transform: translateX(-300%); 
       }
     }
   }
@@ -67,10 +67,10 @@ body {
     
   @keyframes animate {
     0% { 
-      transform: translateX(530%); 
+      transform: translateX(650%); 
     } 
     100% { 
-      transform: translateX(-480%); 
+      transform: translateX(-580%); 
     }
   }
     .navbar{
