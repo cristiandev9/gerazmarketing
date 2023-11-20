@@ -57,7 +57,7 @@ const Presentation = () => {
           >
             <TextPresentation />
           </div>
-          <a href="#footer" style={{ color: "#fff", textDecoration: "none" }}>
+          <a href="https://wa.me/message/L42NJ4A3XZG5E1" target="_blank" style={{ color: "#fff", textDecoration: "none" }}>
             <div style={{ margin: "2.6rem 0 2rem 0" }} id="saiba-mais">
               <Button text="SAIBA MAIS" scale="1" />
             </div>

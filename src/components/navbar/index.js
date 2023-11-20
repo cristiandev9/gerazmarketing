@@ -67,7 +67,7 @@ const Navbar = ({setNavMobileActived, navMobileActived}) => {
           <a href="#saiba-mais" style={styleA}>Clientes</a>
         </div>
         <div style={{ marginLeft: "1rem" }}>
-          <a href="#entre-em-contato" style={styleA}>
+          <a href="https://wa.me/message/L42NJ4A3XZG5E1" target="_blank" style={styleA}>
             <Button text="ENTRE EM CONTATO" scale="0.9" />
           </a>
         </div>

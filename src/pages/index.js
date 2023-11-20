@@ -50,6 +50,12 @@ const IndexPage = () => {
       <Jobs/>
       <About/>
       <Footer/>
+      <img
+              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
+              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
+              width="80px"
+              style={{zIndex: 99999, position: "absolute", right: 15, bottom: 15}}
+            />
       
     </main>
   );
