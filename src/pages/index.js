@@ -21,42 +21,94 @@ const initialPage = {
   color: "#fff",
 };
 
-
 const IndexPage = () => {
   const [navMobileActived, setNavMobileActived] = useState(false);
 
-  
   return (
     <main style={initialPage}>
       <GlobalStyle />
-      <Navbar setNavMobileActived={setNavMobileActived} navMobileActived={navMobileActived}/>
-      {navMobileActived &&(
-        <nav className="navbar-mobile nav-show-only-mobile" style={{width: "100vh", height:"100%", zIndex: "9998", background: "#000", position: "fixed", right: 0, bottom: 0, top: 0, left: 0}}>
-          <div style={{display: "block"}}>
-            <div style={{marginTop: "8rem", marginLeft: "3rem", color: "#fff", fontSize: "23px"}}>
-              <a href="#sobre-nos" onClick={()=>setNavMobileActived(false)} style={{color:"#fff"}}>Sobre nós</a>
+      <Navbar
+        setNavMobileActived={setNavMobileActived}
+        navMobileActived={navMobileActived}
+      />
+      {navMobileActived && (
+        <nav
+          className="navbar-mobile nav-show-only-mobile"
+          style={{
+            width: "100vh",
+            height: "100%",
+            zIndex: "9998",
+            background: "#000",
+            position: "fixed",
+            right: 0,
+            bottom: 0,
+            top: 0,
+            left: 0,
+          }}
+        >
+          <div style={{ display: "block" }}>
+            <div
+              style={{
+                marginTop: "8rem",
+                marginLeft: "3rem",
+                color: "#fff",
+                fontSize: "23px",
+              }}
+            >
+              <a
+                href="#sobre-nos"
+                onClick={() => setNavMobileActived(false)}
+                style={{ color: "#fff" }}
+              >
+                Sobre nós
+              </a>
             </div>
-            <div style={{marginTop: "2rem", marginLeft: "3rem", color: "#fff", fontSize: "23px"}}>
-              <a href="#nossos-servicos" onClick={()=>setNavMobileActived(false)}>Nossos serviços</a>
+            <div
+              style={{
+                marginTop: "2rem",
+                marginLeft: "3rem",
+                color: "#fff",
+                fontSize: "23px",
+              }}
+            >
+              <a
+                href="#nossos-servicos"
+                onClick={() => setNavMobileActived(false)}
+              >
+                Nossos serviços
+              </a>
             </div>
-            <div style={{marginTop: "2rem", marginLeft: "3rem", color: "#fff", fontSize: "23px"}}>
-              <a href="#saiba-mais" onClick={()=>setNavMobileActived(false)}>Clientes</a>
+            <div
+              style={{
+                marginTop: "2rem",
+                marginLeft: "3rem",
+                color: "#fff",
+                fontSize: "23px",
+              }}
+            >
+              <a href="#saiba-mais" onClick={() => setNavMobileActived(false)}>
+                Clientes
+              </a>
             </div>
           </div>
         </nav>
       )}
-      <Presentation/>
-      <Clients/>
-      <Jobs/>
-      <About/>
-      <Footer/>
-      <img
-              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
-              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
-              width="80px"
-              style={{zIndex: 99999, position: "absolute", right: 15, bottom: 15}}
-            />
-      
+      <Presentation />
+      <Clients />
+      <Jobs />
+      <About />
+      <Footer />
+      <a
+        href="https://wa.me/5527998691873?text=Ol%C3%A1%2C+vim+pelo+site+e+gostaria+de+atendimento."
+        target="_blank"
+        style={{ zIndex: 99999, position: "absolute", right: 15, bottom: 15 }}
+      >
+        <img
+          src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
+          alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/whatsapp.png"
+          width="80px"
+        />
+      </a>
     </main>
   );
 };
