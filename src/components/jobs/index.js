@@ -24,8 +24,8 @@ const Jobs = () => {
                 <img
                   src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/logosclientes/medalha-de-ouro.png"
                   alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/logosclientes/medalha-de-ouro.png"
-                  width="23px"
-                  style={{ marginLeft: ".5rem", marginBottom: "-.2rem" }}
+                  width="20px"
+                  style={{ marginLeft: ".5rem", marginTop: '-.1rem'}}
                 />,
               ]}
               text={[

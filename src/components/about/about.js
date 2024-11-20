@@ -79,7 +79,7 @@ const About = () => {
           do Marketing em 2013, no ensino médio, onde cursou técnico em
           administração integrado ao ensino médio. No curso, ela tinha uma
           matéria específica em marketing e outras secundárias, mas que também
-          envolviam a área. Durante o ensino médio, Milena fez estágio como
+          envolviam a área.<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Durante o ensino médio, Milena fez estágio como
           atendente/vendedora em uma loja de serviços fotográficos e logo após o
           término do estágio e do ensino médio, começou a fazer serviços como
           modelo, a partir daí, começou a ter um contato forte com redes
@@ -87,7 +87,7 @@ const About = () => {
           iria engrenar na carreira de modelo e influencer, mas não, na época
           começou a trabalhar como CLT no setor comercial e administrativo de
           uma escola de cursos, outra oportunidade que Milena teve para entender
-          sobre vendas e estratégias. Na época, ingressou na faculdade de
+          sobre vendas e estratégias.<br /> &nbsp;&nbsp; Na época, ingressou na faculdade de
           Marketing em uma instituição, mas não gostou muito da grade
           curricular, segundo ela: parecia que estava fazendo administração
           misturado com contabilidade e não tinha nada a ver com Marketing.
@@ -99,7 +99,7 @@ const About = () => {
           roupas em sua cidade e aproveitou suas habilidades com as redes
           sociais, e se propôs a cuidar do instagram da loja, resultado: Ela
           cuidava do instagram e ao mesmo tempo era a modelo da marca (como um
-          extra), pois no momento ainda trabalhava na escola de cursos. A partir daí, Milena viu uma oportunidade
+          extra), pois no momento ainda trabalhava na escola de cursos.<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A partir daí, Milena viu uma oportunidade
           de investir ainda mais na carreira de Marketing. Ainda no ano de
           2018 mudou de emprego e começou a trabalhar (CLT), sendo responsável
           pelo Marketing em uma farmácia de sua cidade e ao mesmo tempo cuidava
@@ -118,7 +118,7 @@ const About = () => {
           empresas em seus anos de experiência, hoje além dos antigos serviços
           prestados, a Gera Marketing oferece mais como, por exemplo: a criação de
           sites, sendo o responsável seu esposo Cristian Barbosa Andrisen. 
-          E agora, após seis anos, Milena decidiu mudar o nome da empresa para Gera Marketing, eliminando o "Z". A decisão foi tomada porque a equipe agora é composta por profissionais de diversas gerações, e não apenas da Geração Z. Portanto, o nome anterior já não refletia mais a realidade da equipe.  O nome "Gera" foi mantido para comunicar o principal objetivo da empresa: gerar ideias, gerar marketing, e o alvo porém de uma forma repaginada para comunicar um dos principais focos do marketing que envolve um estudo aprofundado do público-alvo de cada negócio. Com essa mudança de marca, a empresa busca inclusão das gerações e reforçar seu compromisso em desenvolver estratégias assertivas e personalizadas. A transição para Gera Marketing reflete o crescimento e a evolução da empresa, alinhando seu nome com a missão de gerar valor e inovação no campo do marketing.
+          E agora, após seis anos, Milena decidiu mudar o nome da empresa para Gera Marketing, eliminando o "Z". <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A decisão foi tomada porque a equipe agora é composta por profissionais de diversas gerações, e não apenas da Geração Z. Portanto, o nome anterior já não refletia mais a realidade da equipe.  O nome "Gera" foi mantido para comunicar o principal objetivo da empresa: gerar ideias, gerar marketing, e o alvo porém de uma forma repaginada para comunicar um dos principais focos do marketing que envolve um estudo aprofundado do público-alvo de cada negócio. Com essa mudança de marca, a empresa busca inclusão das gerações e reforçar seu compromisso em desenvolver estratégias assertivas e personalizadas. A transição para Gera Marketing reflete o crescimento e a evolução da empresa, alinhando seu nome com a missão de gerar valor e inovação no campo do marketing.
 
         </div>
         )}

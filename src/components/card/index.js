@@ -22,11 +22,11 @@ const Card = ({ title, text }) => {
           className="icon-small"
         />
 
-        <div className="card-jobs-int" style={{display: "flex"}}>
+        <div className="card-jobs-int" style={{display: "flex", justifyContent: 'center', alignItems: 'center'}}>
           {title.map((ttl, ind) => (
             <h2
               key={ind}
-              style={{ marginTop: "-.5rem", height: "2.5rem", fontSize: "17px" }}
+              style={{ marginTop: "0rem", height: "2.5rem", fontSize: "17px" }}
             >
               {ttl}
             </h2>
@@ -39,7 +39,7 @@ const Card = ({ title, text }) => {
           marginTop: "-.3rem",
           color: "#BABABA",
           letterSpacing: "0.3px",
-          textAlign: "left"
+          textAlign: "center"
         }}
       >
         {text.map((txt, ind) => (
