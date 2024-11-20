@@ -170,7 +170,7 @@ body {
     }
 
     #entre-em-contato{
-      display: block;
+      display: block !important;
     }
 
     .text-presentation{
@@ -191,6 +191,7 @@ body {
     }
     .card-jobs{
       margin: 1.5rem !important;
+      padding: 2rem 0rem !important;
     }
 
     .container-about{

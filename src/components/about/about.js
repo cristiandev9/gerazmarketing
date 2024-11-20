@@ -29,7 +29,7 @@ const About = () => {
             />
           </div>
           <div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A &nbsp;
+            <span style={{ marginLeft: '1.5rem' }}>A &nbsp;
             <b style={{ color: "#DB88D4" }}>Gera Marketing</b>
             &nbsp; foi criada no dia 20 de Novembro de 2018, pela &nbsp;
             <b className="ceo-milena-perin" style={{ color: "#DB88D4" }}>CEO Milena Perin</b>
@@ -40,32 +40,37 @@ const About = () => {
             apenas uma alteração no ícone, que foi a substituição das letras MP
             pela letra Z e o seu nome passou a ser Gera Marketing ao invés de
             MP Marketing.
+            </span>
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por que Milena escolheu o nome &nbsp;
+            <span style={{ marginLeft: '1.5rem' }}>Por que Milena escolheu o nome &nbsp;
             <b style={{ color: "#DB88D4" }}>Gera Marketing</b>&nbsp;?&nbsp; O
             nome Gera Marketing vem de &nbsp;
             <b style={{ color: "#DB88D4" }}>Geração Z</b>&nbsp;, que
             representa aqueles que nasceram entre o fim da década de 1990 e
             2010. Além de Milena ter nascido na época, sua profissão tem tudo a
             ver com as características da geração que ela pertence.
+            </span>
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;Os pertencentes a Geração Z, também chamados
+            <span style={{ marginLeft: '1.5rem' }}>Os pertencentes a Geração Z, também chamados
             de nativos digitais, tem uma íntima relação com o mundo digital, com
             a internet e com a informática, são pessoas que cresceram jogando
             video games, que acompanharam de perto as inovações tecnológicas e
             que gostam de consumir essas inovações quando possível.
+            </span>
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Milena resolveu juntar o útil ao
+            <span style={{ marginLeft: '1.5rem' }}>Milena resolveu juntar o útil ao
             agradável e hoje busca trabalhar com uma equipe pertencente à mesma
             geração para desenvolverem em conjunto e na mesma sintonia, projetos
             inovadores e tecnológicos para seus clientes.
+            </span>
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É impossível falar da &nbsp;
+            <span style={{ marginLeft: '1.5rem' }}>É impossível falar da &nbsp;
             <b style={{ color: "#DB88D4" }}>Gera Marketing</b>&nbsp; e não
             vincular o nome: &nbsp;
             <b style={{ color: "#DB88D4" }}>Milena</b>.&nbsp; Todos
             os seus clientes e pessoas que já ouviram falar na empresa, sabem
             que Milena é a cara da Gera Marketing.
+            </span>
           </div>
         </div>
         <br />
