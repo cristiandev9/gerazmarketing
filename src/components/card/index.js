@@ -24,12 +24,12 @@ const Card = ({ title, text }) => {
 
         <div className="card-jobs-int" style={{display: "flex", justifyContent: 'center', alignItems: 'center'}}>
           {title.map((ttl, ind) => (
-            <h2
+            <h1
               key={ind}
               style={{ marginTop: "0rem", height: "2.5rem", fontSize: "17px" }}
             >
               {ttl}
-            </h2>
+            </h1>
           ))}
         </div>
       </div>

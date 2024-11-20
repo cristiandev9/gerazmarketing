@@ -189,6 +189,9 @@ body {
       text-align:center;
       margin-top: 2rem;
     }
+    .card-jobs{
+      margin: 1.5rem !important;
+    }
 
     .container-about{
       padding: 1rem !important;
