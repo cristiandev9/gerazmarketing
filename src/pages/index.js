@@ -115,4 +115,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>GeraZ Marketing</title>;
+export const Head = () => <title>Gera Marketing Marketing</title>;

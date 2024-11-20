@@ -6,11 +6,10 @@ const Card = ({ title, text }) => {
       className="card-jobs"
       style={{
         backgroundColor: "#292929",
-        margin: "2rem",
-        padding: "3rem 2.5rem",
-        width: "20rem",
-        height: "10.5rem",
-        textAlign: "left",
+        margin: "1rem",
+        padding: "2rem 2.5rem",
+        width: "100%",
+        textAlign: "center",
       }}
     >
       <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>

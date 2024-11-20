@@ -21,7 +21,7 @@ const TextPresentation = () => (
 );
 
 const bannerMainUrl =
-  "https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/banner-geraz.png";
+  "https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/gera-z-marketing.png";
 
 const Presentation = () => {
   return (
@@ -42,8 +42,7 @@ const Presentation = () => {
             className="title-presentation"
             style={{ fontSize: "3.5rem", fontWeight: "600" }}
           >
-            Marketing criativo
-            <br /> para sua rede social
+           Geramos <span style={{color:'#6B3FC3'}}>ideias</span>,<br />geramos <span style={{color:'#DB88D4'}}>confiança</span>, <br />geramos <span style={{color:'#269998'}}>marketing</span>. 
           </h1>
           <div
             className="text-presentation"

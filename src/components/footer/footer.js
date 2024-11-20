@@ -32,7 +32,7 @@ const Footer = () => {
       <div className="logo-and-contact" style={itemsRow}>
         <div>
           <img
-            src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/png+logo+2020+.png"
+            src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/LOGOTIPO.png"
             alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/png+logo+2020+.png"
             width={120}
           />
@@ -92,7 +92,7 @@ const Footer = () => {
             <span>Siga-nos</span>
           </a>
         </div>
-        <div className="copyright">© 2022 GeraZ Marketing. Todos os direitos reservados.</div>
+        <div className="copyright">© 2022 Gera Marketing Marketing. Todos os direitos reservados.</div>
       </div>
       <div style={contactAndCopy} id="entre-em-contato">
         <div>
@@ -104,7 +104,7 @@ const Footer = () => {
               letterSpacing: "1px",
             }}
           >
-            geraz@gmail.com
+            geramarketing@gmail.com
           </span>
         </div>
         <div className="created-by">
@@ -116,7 +116,7 @@ const Footer = () => {
               letterSpacing: "1px",
             }}
           >
-            GeraZ
+            Gera Marketing
           </span>
         </div>
       </div>

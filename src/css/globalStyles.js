@@ -2,6 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+
+h1, h2, h3 {
+  font-family: "Sulphur Point", sans-serif;
+}
+
 html{
   overflow-x: hidden !important;
 }
@@ -100,7 +106,7 @@ body {
       text-align:left;
       margin-top: -2rem !important;
       margin-bottom: 0.6rem !important;
-      color:#DEEB21;
+      color:#FDF213;
     }
     #nossos-servicos{
       margin: 0rem !important;

@@ -8,7 +8,7 @@ const About = () => {
   }
   return (
     <div className="container-ab" id="sobre-nos" style={{ margin: "2rem 4.2rem 4rem  4.2rem" }}>
-      <h1 style={{ fontSize: "3rem", textAlign: "center", color: "#DEEB21" }}>Sobre nós</h1>
+      <h1 style={{ fontSize: "3rem", textAlign: "center", color: "#FDF213" }}>Sobre nós</h1>
 
       <div
        className="container-about"
@@ -23,14 +23,14 @@ const About = () => {
         <div className="container-img-text-sobre" style={{ display: "flex" }}>
           <div className="container-img-sobre-nos" style={{ width: "60rem", height: "28.5rem", marginRight: "3rem" }}>
             <img
-              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/IMG_6132-Edit.JPG"
-              alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/IMG_6132-Edit.JPG"
+              src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/FEED+GERAZ.png"
+              alt="logotipofeed"
               width="100%"
             />
           </div>
           <div>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A &nbsp;
-            <b style={{ color: "#DB88D4" }}>Gera Z Marketing</b>
+            <b style={{ color: "#DB88D4" }}>Gera Marketing</b>
             &nbsp; foi criada no dia 20 de Novembro de 2018, pela &nbsp;
             <b className="ceo-milena-perin" style={{ color: "#DB88D4" }}>CEO Milena Perin</b>
             ,&nbsp; a princípio o nome da empresa era &nbsp;
@@ -38,12 +38,12 @@ const About = () => {
             (as iniciais do nome da idealizadora), em 2020 Milena decidiu
             reformular a identidade visual e o nome da empresa. A logo sofreu
             apenas uma alteração no ícone, que foi a substituição das letras MP
-            pela letra Z e o seu nome passou a ser Gera Z Marketing ao invés de
+            pela letra Z e o seu nome passou a ser Gera Marketing ao invés de
             MP Marketing.
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por que Milena escolheu o nome &nbsp;
-            <b style={{ color: "#DB88D4" }}>GERA Z</b>&nbsp;?&nbsp; O
-            nome Gera Z vem de &nbsp;
+            <b style={{ color: "#DB88D4" }}>Gera Marketing</b>&nbsp;?&nbsp; O
+            nome Gera Marketing vem de &nbsp;
             <b style={{ color: "#DB88D4" }}>Geração Z</b>&nbsp;, que
             representa aqueles que nasceram entre o fim da década de 1990 e
             2010. Além de Milena ter nascido na época, sua profissão tem tudo a
@@ -61,11 +61,11 @@ const About = () => {
             inovadores e tecnológicos para seus clientes.
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É impossível falar da &nbsp;
-            <b style={{ color: "#DB88D4" }}>Gera Z</b>&nbsp; e não
+            <b style={{ color: "#DB88D4" }}>Gera Marketing</b>&nbsp; e não
             vincular o nome: &nbsp;
             <b style={{ color: "#DB88D4" }}>Milena</b>.&nbsp; Todos
             os seus clientes e pessoas que já ouviram falar na empresa, sabem
-            que Milena é a cara da Gera Z.
+            que Milena é a cara da Gera Marketing.
           </div>
         </div>
         <br />
@@ -106,7 +106,7 @@ const About = () => {
           das redes sociais de outras empresas.
           Ela trabalhou alguns meses apenas usando seu nome, até que chegou
           o momento de criar um CNPJ profissional e assim surgiu a MP Marketing e
-          consequentemente a GERA Z. Os primeiros serviços oferecidos foram:
+          consequentemente a Gera Marketing. Os primeiros serviços oferecidos foram:
           Gestão de redes sociais (fotografias, produção de vídeos, postagens e
           estratégias digitais), Criação de logo (identidade visual) e Designer
           Gráfico (Produção de artes).
@@ -116,12 +116,10 @@ const About = () => {
           abril de 2021, pediu demissão da farmácia para se dedicar apenas aos
           seus clientes e ir em busca de novos. Milena já atendeu mais de 150
           empresas em seus anos de experiência, hoje além dos antigos serviços
-          prestados, a Gera Z oferece mais como, por exemplo: a criação de
-          sites, sendo o responsável seu esposo Cristian Barbosa Andrisen,
-          também nascido na época da Geração Z. A Gera Z, hoje conta com
-          diversos parceiros que assumem alguns serviços da empresa como:
-          Criação de Identidade Visual, Tráfego Pago, Ensaios corporativos e
-          muito mais…
+          prestados, a Gera Marketing oferece mais como, por exemplo: a criação de
+          sites, sendo o responsável seu esposo Cristian Barbosa Andrisen. 
+          E agora, após seis anos, Milena decidiu mudar o nome da empresa para Gera Marketing, eliminando o "Z". A decisão foi tomada porque a equipe agora é composta por profissionais de diversas gerações, e não apenas da Geração Z. Portanto, o nome anterior já não refletia mais a realidade da equipe.  O nome "Gera" foi mantido para comunicar o principal objetivo da empresa: gerar ideias, gerar marketing, e o alvo porém de uma forma repaginada para comunicar um dos principais focos do marketing que envolve um estudo aprofundado do público-alvo de cada negócio. Com essa mudança de marca, a empresa busca inclusão das gerações e reforçar seu compromisso em desenvolver estratégias assertivas e personalizadas. A transição para Gera Marketing reflete o crescimento e a evolução da empresa, alinhando seu nome com a missão de gerar valor e inovação no campo do marketing.
+
         </div>
         )}
 

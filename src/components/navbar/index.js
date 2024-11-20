@@ -10,6 +10,7 @@ const itemFlex = {
 const navbar = {
   display: itemFlex.display,
   justifyContent: "space-between",
+  alignItems: 'center',
   padding: "1.3rem 4.5rem",
   position: "fixed",
   width: "100%",
@@ -47,9 +48,9 @@ const Navbar = ({setNavMobileActived, navMobileActived}) => {
     <div className="navbar" style={navbar}>
       <div className="logo">
         <img
-          src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png"
+          src="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/LOGOTIPO.png"
           alt="https://gerazmarketing.s3.sa-east-1.amazonaws.com/images/logo.png"
-          width={48}
+          width={120}
         />
       </div>
       <div className="nav-show-only-mobile" onClick={handleNavbar}>

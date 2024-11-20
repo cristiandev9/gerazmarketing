@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `GeraZ Marketing`,
+    title: `Gera Marketing`,
     siteUrl: `https://gerazmarketing.com.br`
   },
   plugins: ["gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "src/images/logo.png"
+      "icon": "src/images/geraz.png"
     }
   }, "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
