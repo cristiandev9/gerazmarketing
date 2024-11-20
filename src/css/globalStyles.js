@@ -69,7 +69,6 @@ body {
   }
 
   @media (max-width: 1016px){
-
     
   @keyframes animate {
     0% { 
@@ -105,20 +104,19 @@ body {
       margin-left: 2rem !important;
       text-align:left;
       margin-top: -2rem !important;
-      margin-bottom: 0.6rem !important;
+      margin-bottom: 3rem !important;
       color:#FDF213;
     }
     #nossos-servicos{
       margin: 0rem !important;
     }
 
-    .card-jobs{
-      margin: 1.5rem auto !important;
-      padding: 2rem 1rem 5rem 1rem !important;
+    .jobs-cards{
+      margin: 1rem;
+      max-width: 100%;
     }
 
-   
-
+  
     .cards-jobs-all{
       display: block !important;
     }
@@ -162,13 +160,17 @@ body {
     .image-presentation-only-mobile{
       display:block !important;
       margin-left: -1.9rem;
-      margin-top: 4rem;
+      margin-top: 6rem;
     }
 
     .image-presentation-only-mobile > img{
-      width: 23rem !important;
+      width: 25rem !important;
       margin-bottom: 1rem !important;
 
+    }
+
+    #entre-em-contato{
+      display: block;
     }
 
     .text-presentation{
@@ -184,7 +186,8 @@ body {
     }
 
     .created-by{
-      text-align:right;
+      text-align:center;
+      margin-top: 2rem;
     }
 
     .container-about{
@@ -213,7 +216,7 @@ body {
       display:flex;
       position: absolute;
       right:4.5rem;
-      top: 2.2rem;
+      top: 3rem;
     }
 
     a{
