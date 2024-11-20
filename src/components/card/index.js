@@ -35,6 +35,7 @@ const Card = ({ title, text }) => {
       </div>
 
       <div
+        className="text-card-1"
         style={{
           marginTop: "-.3rem",
           color: "#BABABA",

@@ -194,6 +194,10 @@ body {
       padding: 2rem 0rem !important;
     }
 
+    .text-card-1{
+      margin: -0.3rem 1rem 1rem 1rem !important;
+    }
+
     .container-about{
       padding: 1rem !important;
     }
