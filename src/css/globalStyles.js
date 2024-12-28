@@ -196,6 +196,10 @@ body {
 
     .text-card-1{
       margin: -0.3rem 1rem 1rem 1rem !important;
+      transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+      overflow: hidden;
+      opacity: 0;
+      max-height: 0;
     }
 
     .container-about{

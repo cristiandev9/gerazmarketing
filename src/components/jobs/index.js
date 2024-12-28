@@ -29,68 +29,96 @@ const Jobs = () => {
                 />,
               ]}
               text={[
-                "- Criação de conteúdo (Fotografia, artes gráficas e gravações de vídeos);",
+                "•⁠  ⁠Criação de conteúdo (Fotografia, artes gráficas e gravações de vídeos);",
                 <br />,
-                "- Postagem estratégica (Responsabilidade de postar usando estratégias orgânicas para o aumento do alcance e engajamento);",
+                "•⁠  ⁠Postagem estratégica (Responsabilidade de postar usando estratégias orgânicas para o aumento do alcance e engajamento);",
                 <br />,
-                "- Planejamento estratégico (Ações para rede social).",
+                "•⁠  ⁠Planejamento estratégico (Ações para rede social)",
               ]}
             />
             <Card
-              title={["Criação de Sites"]}
+              title={["Tráfego Pago"]}
               text={[
-                "- Desenvolvimento de sites institucionais, landingpage, e-commerce, etc.",
+                "•⁠  ⁠Planejamento estratégico (Ações para rede social)",
+              ]}
+            />
+            <Card
+              title={[
+                "Criação de Sites",
+                <img
+                  width="20px"
+                  style={{ marginLeft: ".5rem", marginTop: '-.1rem'}}
+                />,
+              ]}
+              text={[
+                "•⁠  ⁠Desenvolvimento de sites institucionais, landingpage, e-commerce, etc.",
                 <br />,
-                "- Sites ou e-commerce's responsivos, otimizados para o google, personalizados, construídos com técnologias de ponta, tudo isso em alta performance!",
+                "•⁠  ⁠Sites ou e-commerce's responsivos, otimizados para o google, personalizados, construídos com técnologias de ponta, tudo isso em alta performance!",
+              ]}
+            />
+            <Card
+              title={[
+                "Branding e Rebranding",
+                <img
+                  width="20px"
+                  style={{ marginLeft: ".5rem", marginTop: '-.1rem'}}
+                />,
+              ]}
+              text={[
+                "•⁠  ⁠Criação de identidade visual;",
+                <br />,
+                "•⁠  ⁠Desenvolvimento de marca e posionamento nas redes sociais.",
+                <br />,
+                "•⁠  ⁠Definição de arquétipos.",
+                <br />,
+                "•⁠  ⁠Comunicação.",
               ]}
             />
             <Card
               title={["Designer Gráfico"]}
               text={[
-                "- Criação de identidade visual;",
+                "•⁠ Criação de identidade visual;",
                 <br />,
-                "- Criação de artes para rede socais, outdoor, panfletos, adesivos e demais materiais gráficos.",
+                "•⁠ Criação de artes para rede socais, outdoor, panfletos, adesivos e demais materiais gráficos.",
               ]}
             />
             <Card
               title={["Mentoria para Empreendedores"]}
-              text={["- Mentoria para empreendedores que querem aprender a dominar as redes sociais e usá-las de forma estratégica em favor do seu negócio."]}
+              text={["•⁠ Mentoria para empreendedores que querem aprender a dominar as redes sociais e usá-las de forma estratégica em favor do seu negócio."]}
             />
             <Card
               title={["Mentoria para profissionais da área"]}
-              text={["- Mentoria para quem deseja entrar para a área ou se aperfeiçoar."]}
+              text={["•⁠ Mentoria para quem deseja entrar para a área ou se aperfeiçoar."]}
             />
             <Card
               title={["Marketing Físico"]}
               text={[
-                "- Programação de eventos presenciais;",
+                "•⁠ Programação de eventos presenciais;",
                 <br />,
-                "- Cobertura de eventos;",
+                "•⁠ Cobertura de eventos;",
                 <br />,
-                "- Campanhas comerciais;",
+                "•⁠ Campanhas comerciais;",
                 <br />,
-                "- Ornamentação.",
+                "•⁠ Ornamentação.",
               ]}
             />
             <Card
               title={["Ensaios fotográficos corporativos"]}
               text={[
-                "- Programação de eventos presenciais;",
+                "•⁠ Acompanhamento estratégico;",
                 <br />,
-                "- Acompanhamento estratégico;",
+                "•⁠ Branding visual;",
                 <br />,
-                "- Branding visual;",
-                <br />,
-                "- Fotografia em studio (fotógrafos parceiros).",
+                "•⁠ Fotografia em studio com fotógrafos parceiros.",
               ]}
             />
             <Card
               title={["Lançamentos"]}
-              text={["- Gestão e execução de campanhas de lançamentos de produtos, serviços, infoprodutos e marcas."]}
+              text={["•⁠ ⁠Gestão e execução de campanhas de lançamentos de produtos físicos e marcas."]}
             />
             <Card
               title={["Lives"]}
-              text={["Estruturação e cobertura de lives para eventos, shopping, lançamentos etc."]}
+              text={["•⁠ ⁠Estruturação e cobertura de lives para eventos, shopping, lançamentos etc."]}
             />
           </div>
         </div>
